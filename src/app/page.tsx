@@ -5,7 +5,7 @@ import { useState } from 'react';
 export default function Home() {
   const [message, setMessage] = useState<string>("");
   const [messages, setMessages] = useState<{ role: string, content: string }[]>([
-    { role: "system", content: "You're a math teacher." } // Mensagem inicial
+    { role: "system", content: "Como posso te ajudar?" } // Mensagem inicial
   ]);
   const [loading, setLoading] = useState<boolean>(false);
 
